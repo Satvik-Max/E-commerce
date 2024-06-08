@@ -1,0 +1,58 @@
+.admin-dashboard {
+    padding: 20px;
+}
+
+.admin-content {
+    margin-bottom: 20px;
+}
+
+.new-product-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 12px;
+}
+
+.new-product-btn:hover {
+    background-color: #0056b3;
+}
+
+.product-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+.product-form input,
+.product-form textarea,
+.product-form button {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.product-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.product-form button:hover {
+    background-color: #0056b3;
+}
+
+.access-denied {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.access-denied h1 {
+    color: #f00;
+}

@@ -1,0 +1,113 @@
+/* Products.css */
+h3{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .product {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: 1s;
+  }
+  .product:hover{
+    width: 330px;
+    margin: 20px;
+    transition: 0.5s;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  .product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .product-details {
+    padding: 10px 0;
+  }
+  
+  .product-name {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    display: flex;
+    gap: 15px;
+    font-size: 1.1rem;
+    color: #888;
+  }
+  .old-price {
+    text-decoration: line-through;
+    color: #888; 
+  }  
+  .new-price {
+    font-weight: bold;
+    color: #000;
+  }
+  .product-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  .order-button {
+    background-color: black;
+    color: white;
+    margin-left: 5px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    justify-content: right;
+    align-items: right;
+  }
+  .order-button:hover {
+    background-color: #333;
+    cursor: url("../../../cursor.cur") , auto;
+  }
+.view-button {
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 10px;
+  justify-content: right;
+  align-items: right;
+}
+.view-button:hover {
+  background-color: #333;
+  cursor: url("../../../cursor.cur") , auto;
+}
+
+  @media only screen and (max-width: 768px) {
+    .products {
+      justify-content: center;
+    }
+  
+    .product {
+      width: calc(50% - 40px);
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .product {
+      width: calc(100% - 40px);
+    }
+  }
+  

@@ -1,0 +1,25 @@
+
+  
+  @media (max-width: 768px) {
+    
+  }
+  
+  .carousel-item img {
+    width: 100%; /* Ensure the image fills the carousel */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white; /* Text color */
+    padding: 20px; /* Padding around caption */
+  }
+  
+  .carousel-caption h3 {
+    font-size: 2rem; /* Adjust font size of slide title */
+  }
+  
+  .carousel-caption p {
+    font-size: 1.2rem; /* Adjust font size of slide content */
+  }
+  
